@@ -142,7 +142,7 @@ h1,h2,h3,h4,.font-heading{
 /* Panel del logo en el hero: imagen de marca con leve zoom animado (evita que se vea estática) */
 .hero-logo-panel{
   position:relative;
-  background:#123C69;
+  background:#03204c;
 }
 .hero-panel-img{
   animation:heroPanelZoom 16s ease-in-out infinite;
