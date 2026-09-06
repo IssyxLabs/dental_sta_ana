@@ -78,8 +78,15 @@
 <main id="contenido">
 <section id="inicio" class="pt-20">
   <div class="grid md:grid-cols-2">
-    <div class="relative min-h-[280px] md:min-h-[560px] overflow-hidden">
-      <img src="assets/img/hero-logo-banner.jpg" alt="Dental Santa Ana - Est. 1996" class="absolute inset-0 w-full h-full object-cover">
+    <div class="hero-logo-panel relative min-h-[280px] md:min-h-[560px] overflow-hidden flex items-center justify-center">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <svg class="hero-wave" viewBox="0 0 800 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,420 C200,340 400,500 800,380 L800,600 L0,600 Z" fill="#ffffff"/>
+        <path d="M0,200 C250,120 500,260 800,160 L800,0 L0,0 Z" fill="#ffffff"/>
+      </svg>
+      <div class="hero-glow"></div>
+      <img src="assets/img/logo.png" alt="Dental Santa Ana - Est. 1996" class="hero-logo-float relative z-10 w-48 sm:w-64 h-auto">
     </div>
     <div class="bg-[#021F4A] flex items-center">
       <div class="px-6 sm:px-10 lg:px-16 py-14 md:py-0 max-w-xl">
